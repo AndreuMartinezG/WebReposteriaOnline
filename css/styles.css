@@ -19,11 +19,12 @@ body {
 .sobreNosotros {
     background-image: url(/assets/img/fondo-home-productos.jpg);
     background-size: cover;
+    border-radius: 1em;
     height: auto;
     width: auto;
     margin-top: 1em;
 }
 .card{
-    margin: 1em;
+    margin: 3em;
 
 }
