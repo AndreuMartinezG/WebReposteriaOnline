@@ -1,6 +1,6 @@
 body {
     background-color: lightgray;
-    font-family:'Times New Roman', serif;
+    font-family: 'Times New Roman', Times, serif
 }
 
 
@@ -13,7 +13,7 @@ body {
     padding: 0;
 }
 
-.sobreNosotros {
+.sobreNuestrosProductos {
     background-image: url(/assets/img/fondo-home-productos.jpg);
     background-size: cover;
     border-radius: 1em;
@@ -23,5 +23,33 @@ body {
 }
 .card{
     margin: 3em;
+}
 
+.sobreNosotros {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2em;
+    height: auto;
+    width: auto;
+    flex-direction: column;
+}
+
+.imagenAboutUs {
+    height: 30rem;
+    width: 40rem;
+    background-image: url(../assets/img/about-us.jpg);
+    background-size: cover;
+}
+
+@media (max-width: 800px) {
+    .imagenAboutUs {
+        width: 20rem;
+    }
+}
+
+.descripcion {
+    margin: 2em;
+    height: 5em;
+    width: auto;
 }
