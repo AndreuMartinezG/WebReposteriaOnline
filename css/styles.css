@@ -1,9 +1,5 @@
 body {
-    padding: 0;
-    margin: 0;
-    
-    width: 100vw;
-    height: 100vh;
+
     font-family:'Times New Roman', serif;
 }
 
@@ -22,7 +18,7 @@ body {
     border-radius: 1em;
     height: auto;
     width: auto;
-    margin-top: 1em;
+    margin-top: 2em;
 }
 .card{
     margin: 3em;
