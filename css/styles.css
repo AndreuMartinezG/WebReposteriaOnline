@@ -3,8 +3,6 @@ body {
     font-family: 'Times New Roman', Times, serif
 }
 
-/* Retoques sobre la pagina home */
-
 .nav-link.active {
     font-weight: bold;
 }
@@ -13,50 +11,7 @@ body {
     font-weight: bold;
 }
 
-.contenido-desplazable {
-    padding: 0;
-}
 
-.sobreNuestrosProductos {
-    background-image: url(/assets/img/fondo-home-productos.jpg);
-    background-size: cover;
-    border-radius: 1em;
-    height: auto;
-    width: auto;
-    margin-top: 2em;
-}
-.card{
-    margin: 3em;
-}
-
-.sobreNosotros {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 2em;
-    height: auto;
-    width: auto;
-    flex-direction: column;
-}
-
-.imagenAboutUs {
-    height: 30rem;
-    width: 40rem;
-    background-image: url(../assets/img/about-us.jpg);
-    background-size: cover;
-}
-
-@media (max-width: 800px) {
-    .imagenAboutUs {
-        width: 20rem;
-    }
-}
-
-.descripcion {
-    margin: 2em;
-    height: 5em;
-    width: auto;
-}
 
 
 
