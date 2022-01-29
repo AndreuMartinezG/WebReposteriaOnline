@@ -3,10 +3,14 @@ body {
     font-family: 'Times New Roman', Times, serif
 }
 
+/* Retoques sobre la pagina home */
 
 .nav-link.active {
-    background-color: rgba(204, 200, 200, 0.671);
-    border-radius: 0.5em;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    font-weight: bold;
 }
 
 .contenido-desplazable {
