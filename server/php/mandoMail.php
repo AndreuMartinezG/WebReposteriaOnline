@@ -1,10 +1,18 @@
 <?php
 
+require 'vendor/autoload.php'
+$dotenv = Dotenv\Dotenv::createInmmutable(__DIR__);
+$dotenv->load();
+
+
+
+/* Verificación del Captcha */
+
 if ($_POST['g-recaptcha-response'] == '') {
 echo "Captcha invalido";
 } else {
 $obj = new stdClass();
-$obj->secret = "6Le6PUUeAAAAAIT9cZdl1LGM0ncp23GgiZzpKYFD";
+$obj->secret = 'STRIPE_SECRET_KEY';
 $obj->response = $_POST['g-recaptcha-response'];
 $obj->remoteip = $_SERVER['REMOTE_ADDR'];
 $url = 'https://www.google.com/recaptcha/api/siteverify';
