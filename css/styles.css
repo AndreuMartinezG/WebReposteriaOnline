@@ -11,7 +11,9 @@ body {
     font-weight: bold;
 }
 
-
+.container-fluid {
+    padding: 0;;
+}
 
 
 
