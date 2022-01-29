@@ -1,3 +1,30 @@
 /* Retoques sobre la pagina Contacto */
 
 
+.contacto-area {
+
+    margin: 3em;
+    padding: 0;
+    height: 30rem;
+    width: auto;
+    
+}
+
+.imagen-contacto {
+    background-image: url(/assets/img/enviar-email.jpg);
+    background-size: cover;
+    height: 30rem;
+    width: auto;
+}
+
+.form-floating {
+    margin: 1em 0;
+}
+
+.button{
+    margin: 1em;
+}
+
+.socials {
+    margin: 12em 0 1em 0;
+}
