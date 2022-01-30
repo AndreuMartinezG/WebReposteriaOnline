@@ -70,8 +70,11 @@ El proyecto ha constado de varias partes:
 ## 6.Herramientas Utilizadas:
 
 -El proyecto se ha realizado esencialmente con la herramienta VisualStudio Code.
+
 -Bootstrap Repository.
+
 -Herramienta de Live Server para ir viendo el proceso de construcción y comprobar el apartado Responsive de la Web.
+
 -GitHub para el almacenamiento y el control de lo realizado en el proyecto.
 
 [Subir](#top)
