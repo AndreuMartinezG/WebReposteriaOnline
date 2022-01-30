@@ -1,38 +1,219 @@
 [
     {
-      "precio": 500,
+      "precio": 1.5,
       "id": 1,
-      "title": "Café",
-      "thumbnailUrl": "https://picsum.photos/id/0/600"
+      "title": "Croissant casero",
+      "thumbnailUrl": "assets/img/croasant-card.png"
     },
     {
-      "precio": 300,
+      "precio": 5,
       "id": 2,
-      "title": "Pizza",
-      "thumbnailUrl": "https://picsum.photos/id/10/600"
+      "title": "Tiramisú",
+      "thumbnailUrl": "assets/img/tiramisu.png"
     },
     {
-      "precio": 100,
+      "precio": 5,
       "id": 3,
-      "title": "Agua",
-      "thumbnailUrl": "https://picsum.photos/id/20/600"
+      "title": "Tarta de Queso",
+      "thumbnailUrl": "assets/img/tarta-queso.png"
     },
     {
-      "precio": 50,
+      "precio": 8,
       "id": 4,
-      "title": "Sandía",
-      "thumbnailUrl": "https://picsum.photos/id/30/600"
+      "title": "Ensaimada",
+      "thumbnailUrl": "assets/img/ensaimada.png"
+    },
+    {
+      "precio": 1.5,
+      "id": 5,
+      "title": "Napoli Chocolate",
+      "thumbnailUrl": "assets/img/napolitanaChoc.png"
+    },
+    {
+      "precio": 5,
+      "id": 6,
+      "title": "Palmeras",
+      "thumbnailUrl": "assets/img/palmera.png"
+    },
+    {
+      "precio": 3,
+      "id": 7,
+      "title": "Bizcocho chocolate",
+      "thumbnailUrl": "assets/img/bizcocho-choc.png"
     },
     {
       "precio": 10,
-      "id": 5,
-      "title": "Mango",
-      "thumbnailUrl": "https://picsum.photos/id/40/600"
+      "id": 8,
+      "title": "Panettone",
+      "thumbnailUrl": "assets/img/pannetone.png"
+    },
+    {
+      "precio": 3,
+      "id": 9,
+      "title": "Magdalenas",
+      "thumbnailUrl": "assets/img/magdalenas.png"
+    },
+    {
+      "precio": 5,
+      "id": 10,
+      "title": "Brazo de Gitano",
+      "thumbnailUrl": "assets/img/brazoGitano.png"
+    },
+    {
+      "precio": 5,
+      "id": 11,
+      "title": "Surtido de Galletas",
+      "thumbnailUrl": "assets/img/surtidoGalletas.png"
+    },
+    {
+      "precio": 5,
+      "id": 12,
+      "title": "Panquemado",
+      "thumbnailUrl": "assets/img/panQuemado.png"
     },
     {
       "precio": 150,
-      "id": 6,
+      "id": 13,
+      "title": "Chela",
+      "thumbnailUrl": "https://picsum.photos/id/50/600"
+    },
+    {
+      "precio": 150,
+      "id": 14,
+      "title": "Chela",
+      "thumbnailUrl": "https://picsum.photos/id/50/600"
+    },
+    {
+      "precio": 150,
+      "id": 15,
+      "title": "Chela",
+      "thumbnailUrl": "https://picsum.photos/id/50/600"
+    },
+    {
+      "precio": 150,
+      "id": 16,
+      "title": "Chela",
+      "thumbnailUrl": "https://picsum.photos/id/50/600"
+    },
+    {
+      "precio": 150,
+      "id": 17,
+      "title": "Chela",
+      "thumbnailUrl": "https://picsum.photos/id/50/600"
+    },
+    {
+      "precio": 150,
+      "id": 18,
+      "title": "Chela",
+      "thumbnailUrl": "https://picsum.photos/id/50/600"
+    },
+    {
+      "precio": 150,
+      "id": 19,
+      "title": "Chela",
+      "thumbnailUrl": "https://picsum.photos/id/50/600"
+    },
+    {
+      "precio": 150,
+      "id": 20,
+      "title": "Chela",
+      "thumbnailUrl": "https://picsum.photos/id/50/600"
+    },
+    {
+      "precio": 150,
+      "id": 21,
+      "title": "Chela",
+      "thumbnailUrl": "https://picsum.photos/id/50/600"
+    },
+    {
+      "precio": 150,
+      "id": 22,
+      "title": "Chela",
+      "thumbnailUrl": "https://picsum.photos/id/50/600"
+    },
+    {
+      "precio": 150,
+      "id": 23,
+      "title": "Chela",
+      "thumbnailUrl": "https://picsum.photos/id/50/600"
+    },
+    {
+      "precio": 150,
+      "id": 24,
+      "title": "Chela",
+      "thumbnailUrl": "https://picsum.photos/id/50/600"
+    },
+    {
+      "precio": 150,
+      "id": 25,
+      "title": "Chela",
+      "thumbnailUrl": "https://picsum.photos/id/50/600"
+    },
+    {
+      "precio": 150,
+      "id": 26,
+      "title": "Chela",
+      "thumbnailUrl": "https://picsum.photos/id/50/600"
+    },
+    {
+      "precio": 150,
+      "id": 27,
+      "title": "Chela",
+      "thumbnailUrl": "https://picsum.photos/id/50/600"
+    },
+    {
+      "precio": 150,
+      "id": 28,
+      "title": "Chela",
+      "thumbnailUrl": "https://picsum.photos/id/50/600"
+    },
+    {
+      "precio": 150,
+      "id": 29,
+      "title": "Chela",
+      "thumbnailUrl": "https://picsum.photos/id/50/600"
+    },
+    {
+      "precio": 150,
+      "id": 30,
+      "title": "Chela",
+      "thumbnailUrl": "https://picsum.photos/id/50/600"
+    },
+    {
+      "precio": 150,
+      "id": 31,
+      "title": "Chela",
+      "thumbnailUrl": "https://picsum.photos/id/50/600"
+    },
+    {
+      "precio": 150,
+      "id": 32,
+      "title": "Chela",
+      "thumbnailUrl": "https://picsum.photos/id/50/600"
+    },
+    {
+      "precio": 150,
+      "id": 33,
+      "title": "Chela",
+      "thumbnailUrl": "https://picsum.photos/id/50/600"
+    },
+    {
+      "precio": 150,
+      "id": 34,
+      "title": "Chela",
+      "thumbnailUrl": "https://picsum.photos/id/50/600"
+    },
+    {
+      "precio": 150,
+      "id": 35,
+      "title": "Chela",
+      "thumbnailUrl": "https://picsum.photos/id/50/600"
+    },
+    {
+      "precio": 150,
+      "id": 36,
       "title": "Chela",
       "thumbnailUrl": "https://picsum.photos/id/50/600"
     }
+
   ]
