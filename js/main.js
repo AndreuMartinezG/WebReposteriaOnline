@@ -1,15 +1,13 @@
-const agua = () => {
-    aguaObj.hasComprado++
-}
+document.addEventListener("DOMContentLoaded", () => {
+    fetchData()
+})
 
-let aguaObj =     {
-    "precio": 1.5,
-    "id": 1,
-    "title": "Agua",
-    "hasComprado": 0 
+const fetchData = async () => {
+    try {
+        const res = await fetch('db.json');
+        const data = await res.json();
+    } catch (error) {
+        console.log(error);
+    }
 };
-
-const dibujar = () => {
-
-}
 

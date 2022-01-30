@@ -1,10 +1,9 @@
 [
     {
-      "precio": 1.5,
+      "precio": 500,
       "id": 1,
-      "title": "Agua",
-      "hasComprado": 0
-     
+      "title": "Café",
+      "thumbnailUrl": "https://picsum.photos/id/0/600"
     },
     {
       "precio": 300,
@@ -36,5 +35,4 @@
       "title": "Chela",
       "thumbnailUrl": "https://picsum.photos/id/50/600"
     }
-]
-
+  ]
