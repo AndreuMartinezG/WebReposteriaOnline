@@ -11,7 +11,17 @@ let carrito = {};
 document.addEventListener('DOMContentLoaded', () => {
     fetchData();
     console.log("DOM Loaded");
+    if(localStorage.getItem('carrito')){
+        carrito = JSON.parse(localStorage.getItem('carrito'))
+        pintarCarrito()
+    }
 });
+
+// Detectamos añadir o disminuir productos del carrito
+
+items.addEventListener('click', e => {
+    btnAccion(e)
+})
 
 // Captamos la informacion de db.json
 const fetchData = async () => {
@@ -77,8 +87,9 @@ const pintarCarrito = () => {
     })
     items.appendChild(fragment)
 
-
     pintarFooter()
+
+    localStorage.setItem('carrito', JSON.stringify(carrito))
 }
 
 //Pintar Carrito
@@ -91,9 +102,9 @@ const pintarFooter = () => {
         `
         return
     }
-    
+
     const nCantidad = Object.values(carrito).reduce((acc, { cantidad }) => acc + cantidad, 0)
-    const nPrecio = Object.values(carrito).reduce((acc, {cantidad, precio}) => acc + cantidad * precio,0)
+    const nPrecio = Object.values(carrito).reduce((acc, { cantidad, precio }) => acc + cantidad * precio, 0)
     //console.log(nPrecio);
 
     templateFooter.querySelectorAll('td')[0].textContent = nCantidad
@@ -108,4 +119,28 @@ const pintarFooter = () => {
         carrito = {}
         pintarCarrito()
     })
+}
+
+const btnAccion = e => {
+    //funcion de aumentar
+    if (e.target.classList.contains('btn-info')) {
+        //console.log(carrito[e.target.dataset.id])
+        const producto = carrito[e.target.dataset.id]
+        producto.cantidad = carrito[e.target.dataset.id].cantidad + 1
+        carrito[e.target.dataset.id] = { ...producto }
+        pintarCarrito()
+    }
+    
+    //Funcion de Disminuir
+    if (e.target.classList.contains('btn-danger')) {
+        //console.log(carrito[e.target.dataset.id])
+        const producto = carrito[e.target.dataset.id]
+        producto.cantidad = carrito[e.target.dataset.id].cantidad - 1
+        if (producto.cantidad === 0 ){
+            delete carrito[e.target.dataset.id]
+        }
+        pintarCarrito()
+    }
+
+    e.stopPropagation()
 }
