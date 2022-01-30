@@ -1,6 +1,6 @@
 .contenedor {
     margin: 2em;
-    width: fit-content;
+    width: auto;
 }
 
 .titulo {
