@@ -144,58 +144,58 @@
       "thumbnailUrl": "assets/img/pizzaFlotentina.png"
     },
     {
-      "precio": 150,
+      "precio": 1.5,
       "id": 25,
-      "title": "Chela",
-      "thumbnailUrl": "https://picsum.photos/id/50/600"
+      "title": "Agua 0,50Cl",
+      "thumbnailUrl": "assets/img/agua-0-50cl.png"
     },
     {
-      "precio": 150,
+      "precio": 1.5,
       "id": 26,
-      "title": "Chela",
-      "thumbnailUrl": "https://picsum.photos/id/50/600"
+      "title": "Agua 1,5L",
+      "thumbnailUrl": "assets/img/agua-1-50L.png"
     },
     {
-      "precio": 150,
+      "precio": 1.5,
       "id": 27,
-      "title": "Chela",
-      "thumbnailUrl": "https://picsum.photos/id/50/600"
+      "title": "Aquarius 0,33C",
+      "thumbnailUrl": "assets/img/aquarius.png"
     },
     {
-      "precio": 150,
+      "precio": 1.5,
       "id": 28,
-      "title": "Chela",
-      "thumbnailUrl": "https://picsum.photos/id/50/600"
+      "title": "Nestea 0,33Cl",
+      "thumbnailUrl": "assets/img/nestea.png"
     },
     {
-      "precio": 150,
+      "precio": 1.5,
       "id": 29,
-      "title": "Chela",
-      "thumbnailUrl": "https://picsum.photos/id/50/600"
+      "title": "Coca Cola 0.33Cl",
+      "thumbnailUrl": "assets/img/cocacola-normal.png"
     },
     {
-      "precio": 150,
+      "precio": 1.5,
       "id": 30,
-      "title": "Chela",
-      "thumbnailUrl": "https://picsum.photos/id/50/600"
+      "title": "Coca Cola Zero 0,33Cl",
+      "thumbnailUrl": "assets/img/cocacola-zero.png"
     },
     {
-      "precio": 150,
+      "precio": 1.5,
       "id": 31,
-      "title": "Chela",
-      "thumbnailUrl": "https://picsum.photos/id/50/600"
+      "title": "CocaCola Zero 0.33Cl",
+      "thumbnailUrl": "assets/img/coca-cola-zero-zero.png"
     },
     {
-      "precio": 150,
+      "precio": 1.5,
       "id": 32,
-      "title": "Chela",
-      "thumbnailUrl": "https://picsum.photos/id/50/600"
+      "title": "CocaCola Light 0.33Cl",
+      "thumbnailUrl": "assets/img/cocacola-light.png"
     },
     {
       "precio": 150,
       "id": 33,
       "title": "Chela",
-      "thumbnailUrl": "https://picsum.photos/id/50/600"
+      "thumbnailUrl": "assets/img/fanta-naranja.png"
     },
     {
       "precio": 150,
