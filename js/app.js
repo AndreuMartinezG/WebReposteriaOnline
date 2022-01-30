@@ -4,17 +4,10 @@ const items = document.getElementById('items');
 console.log(items)
 
 // Esperamos que este el DOM completamente cargado
-document.addEventListener('DOMContentLoaded', (event) => {
+document.addEventListener('DOMContentLoaded', () => {
     fetchData();
     console.log("DOM Loaded");
 });
-
-
-// Detectamos el evento de click de los botones de Añadir al Carrito
-items.addEventListener('click', e => {
-    addCarrito(e)
-});
-
 
 // Captamos la informacion de db.json
 const fetchData = async () => {
@@ -27,7 +20,12 @@ const fetchData = async () => {
     }
 };
 
+// Detectamos el evento de click de los botones de Añadir al Carrito
+items.addEventListener('click', e => {
+    addCarrito(e)
+});
 
 const addCarrito = e => {
     console.log(e.target)
 }
+
