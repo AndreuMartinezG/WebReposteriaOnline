@@ -72,76 +72,76 @@
       "thumbnailUrl": "assets/img/panQuemado.png"
     },
     {
-      "precio": 150,
+      "precio": 2,
       "id": 13,
-      "title": "Chela",
-      "thumbnailUrl": "https://picsum.photos/id/50/600"
+      "title": "Lechuga y Pollo",
+      "thumbnailUrl": "assets/img/sw-lechugaPollo.png"
     },
     {
-      "precio": 150,
+      "precio": 2.5,
       "id": 14,
-      "title": "Chela",
-      "thumbnailUrl": "https://picsum.photos/id/50/600"
+      "title": "Tomate Jamon Queso",
+      "thumbnailUrl": "assets/img/sw-lechuga-tomate-jamon.png"
     },
     {
-      "precio": 150,
+      "precio": 2,
       "id": 15,
-      "title": "Chela",
-      "thumbnailUrl": "https://picsum.photos/id/50/600"
+      "title": "Espinacas Pollo",
+      "thumbnailUrl": "assets/img/sw-espinacas-pollo.png"
     },
     {
-      "precio": 150,
+      "precio": 3,
       "id": 16,
-      "title": "Chela",
-      "thumbnailUrl": "https://picsum.photos/id/50/600"
+      "title": "Pimiento Pollo Cebolla",
+      "thumbnailUrl": "assets/img/sw-pimiento-cebo-pollo.png"
     },
     {
-      "precio": 150,
+      "precio": 1.5,
       "id": 17,
-      "title": "Chela",
-      "thumbnailUrl": "https://picsum.photos/id/50/600"
+      "title": "Jamon Queso",
+      "thumbnailUrl": "assets/img/sw-jamon-queso.png"
     },
     {
-      "precio": 150,
+      "precio": 3,
       "id": 18,
-      "title": "Chela",
-      "thumbnailUrl": "https://picsum.photos/id/50/600"
+      "title": "Jamon Tomate rallado",
+      "thumbnailUrl": "assets/img/sw-jamon-tomate.png"
     },
     {
-      "precio": 150,
+      "precio": 1.5,
       "id": 19,
-      "title": "Chela",
-      "thumbnailUrl": "https://picsum.photos/id/50/600"
+      "title": "Croasant Jamon Queso",
+      "thumbnailUrl": "assets/img/sw-croasant.png"
     },
     {
-      "precio": 150,
+      "precio": 5,
       "id": 20,
-      "title": "Chela",
-      "thumbnailUrl": "https://picsum.photos/id/50/600"
+      "title": "Seleccion de Variedad",
+      "thumbnailUrl": "assets/img/sw-variado.png"
     },
     {
-      "precio": 150,
+      "precio": 7,
       "id": 21,
-      "title": "Chela",
-      "thumbnailUrl": "https://picsum.photos/id/50/600"
+      "title": "Pizza Margarita",
+      "thumbnailUrl": "assets/img/margarita.png"
     },
     {
-      "precio": 150,
+      "precio": 7,
       "id": 22,
-      "title": "Chela",
-      "thumbnailUrl": "https://picsum.photos/id/50/600"
+      "title": "Cuatro Quesos",
+      "thumbnailUrl": "assets/img/margarita.png"
     },
     {
-      "precio": 150,
+      "precio": 8,
       "id": 23,
-      "title": "Chela",
-      "thumbnailUrl": "https://picsum.photos/id/50/600"
+      "title": "Pizza Primavera",
+      "thumbnailUrl": "assets/img/pizzaPrimavera.png"
     },
     {
-      "precio": 150,
+      "precio": 8,
       "id": 24,
-      "title": "Chela",
-      "thumbnailUrl": "https://picsum.photos/id/50/600"
+      "title": "Pizza La Florentina",
+      "thumbnailUrl": "assets/img/pizzaFlotentina.png"
     },
     {
       "precio": 150,
