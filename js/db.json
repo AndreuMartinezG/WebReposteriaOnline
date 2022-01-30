@@ -192,28 +192,28 @@
       "thumbnailUrl": "assets/img/cocacola-light.png"
     },
     {
-      "precio": 150,
+      "precio": 1.5,
       "id": 33,
-      "title": "Chela",
+      "title": "Fanta Naranja 0.33Cl",
       "thumbnailUrl": "assets/img/fanta-naranja.png"
     },
     {
-      "precio": 150,
+      "precio": 1.5,
       "id": 34,
-      "title": "Chela",
-      "thumbnailUrl": "https://picsum.photos/id/50/600"
+      "title": "Fanta Limon 0.33Cl",
+      "thumbnailUrl": "assets/img/fanta-limon.png"
     },
     {
-      "precio": 150,
+      "precio": 1,
       "id": 35,
-      "title": "Chela",
-      "thumbnailUrl": "https://picsum.photos/id/50/600"
+      "title": "Cafe Solo",
+      "thumbnailUrl": "assets/img/cafe-solo.png"
     },
     {
-      "precio": 150,
+      "precio": 1.5,
       "id": 36,
-      "title": "Chela",
-      "thumbnailUrl": "https://picsum.photos/id/50/600"
+      "title": "Cafe Con Leche",
+      "thumbnailUrl": "assets/img/cafe-leche.png"
     }
 
   ]
