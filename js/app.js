@@ -1,7 +1,6 @@
 
-// Registramos todas las cards(productos) de las paginas
 const items = document.getElementById('items');
-console.log(items)
+let carrio = {};
 
 // Esperamos que este el DOM completamente cargado
 document.addEventListener('DOMContentLoaded', () => {
@@ -22,10 +21,26 @@ const fetchData = async () => {
 
 // Detectamos el evento de click de los botones de Añadir al Carrito
 items.addEventListener('click', e => {
-    addCarrito(e)
+    addCarrito(e);
 });
 
 const addCarrito = e => {
-    console.log(e.target)
+    //console.log(e.target);
+    //console.log(e.target.classList.contains('btn-success'));
+    if (e.target.classList.contains('btn-success')){
+        
+        //console.log(e.target.parentElement)
+        setCarrito(e.target.parentElement)
+    }
+    e.stopPropagation()
+}
+
+const setCarrito = objeto => {
+    //console.log(objeto)
+    const producto = {
+        id: objeto.querySelector('.btn-success').dataset.id,
+        title: objeto.querySelector('h4').textContent
+    }
+    console.log(producto)
 }
 
