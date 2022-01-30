@@ -34,3 +34,10 @@
 h3 {
     text-decoration: underline;
 }
+
+.mapa {
+    display: flex;
+    margin-top: 5em;
+    justify-content: center;
+    align-items: center;
+}
