@@ -81,6 +81,7 @@ const pintarCarrito = () => {
     pintarFooter()
 }
 
+//Pintar Carrito
 
 const pintarFooter = () => {
     footer.innerHTML = ''
@@ -88,6 +89,7 @@ const pintarFooter = () => {
         footer.innerHTML = `
         <th scope="row" colspan="5">Carrito vacío - comience a comprar!</th>
         `
+        return
     }
     
     const nCantidad = Object.values(carrito).reduce((acc, { cantidad }) => acc + cantidad, 0)
@@ -100,4 +102,10 @@ const pintarFooter = () => {
     const clone = templateFooter.cloneNode(true)
     fragment.appendChild(clone)
     footer.appendChild(fragment)
+
+    const btnVaciar = document.getElementById('vaciar-carrito')
+    btnVaciar.addEventListener('click', () => {
+        carrito = {}
+        pintarCarrito()
+    })
 }
